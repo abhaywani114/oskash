@@ -73,6 +73,33 @@
 			z-index: 0;
 			pointer-events: none;
 		}
+		
+		#features > div > div > div > div > div > p {
+			display:none;
+		}
+	
+		#features > div > div > div > div {
+			align-items: center;
+		}	
+	
+		#our_team > div > div.row > div {
+			margin: auto;
+			width: 20%;
+			margin: auto 25px;
+		}
+		@media  (max-width:600px) {
+			
+			#our_team > div > div.row > div {
+				width: 75%;
+				margin: auto;
+			}
+		}
+		html {
+			width: 100%;
+			overflow-x: hidden;
+			margin: 0;
+			padding: 0;
+		}
 	</style>
 </head>
 
@@ -92,8 +119,7 @@
                     <a href="#welcome" class="nav-item nav-link ac_tive">Welcome</a>
                     <a href="#features" class="nav-item nav-link">Features</a>
                     <a href="#book_a_seat" class="nav-item nav-link">Book a Seat</a>
-                    <a href="#our_team" class="nav-item nav-link">Teachers</a>
-                    <a href="#testimonial" class="nav-item nav-link">Testimonial</a>
+                    <a href="#our_team" class="nav-item nav-link">Gallery</a>
                     <a href="#contact_us" class="nav-item nav-link">Contact</a>
                 </div>
                 <a href="#book_a_seat" class="btn btn-primary px-4">Join Class</a>
@@ -109,10 +135,8 @@
             <div class="col-lg-6 text-center text-lg-left">
                 <h4 class="text-white mb-4 mt-5 mt-lg-0">Kids Learning Center</h4>
                 <h1 class="display-3 font-weight-bold text-white">New Approach to Kids Education</h1>
-                <p class="text-white mb-4">Sea ipsum kasd eirmod kasd magna, est sea et diam ipsum est amet sed sit.
-                    Ipsum dolor no justo dolor et, lorem ut dolor erat dolore sed ipsum at ipsum nonumy amet. Clita
-                    lorem dolore sed stet et est justo dolore.</p>
-                <a href="" class="btn btn-secondary mt-1 py-3 px-5">Learn More</a>
+                <p class="text-white mb-4">
+               Our vision is to create a home away from home for children through play school where they are nurtured with affection, care responsibility and happiness. We aim to prepare children for life and to provide them safe learning environment.</p>
             </div>
             <div class="col-lg-6 text-center text-lg-right">
                 <img class="img-fluid mt-5" src="img/header.png" alt="">
@@ -190,15 +214,16 @@
             <div class="row align-items-center">
                 <div class="col-lg-7 mb-5 mb-lg-0">
                     <p class="section-title pr-5"><span class="pr-2">Book A Seat</span></p>
-                    <h1 class="mb-4">Book A Seat For Your Kid</h1>
-                    <p>Invidunt lorem justo sanctus clita. Erat lorem labore ea, justo dolor lorem ipsum ut sed eos,
-                        ipsum et dolor kasd sit ea justo. Erat justo sed sed diam. Ea et erat ut sed diam sea ipsum est
-                        dolor</p>
-                    <ul class="list-inline m-0">
+                    <h1 class="mb-4">Our Mission</h1>
+						<p>Our mission is to serve our community. we believe in providing a safe, happy, positive, warm, supportive, child-friendly and fun filled environment conducive to the all-round development of every child. Our mission is to motivate children to discover themselves, their talents, develop skills and become independent with problem solving abilities through the assistance of a nurturing, caring supportive and stimulating environment.</p>
+							<p>We create a culture of kindness, build the foundations for wellness for life, make learning fun. we believe in continuous improvement and innovation. We will always do our best and make it better. We intend that all children should enjoy learning.</p>
+							<p>We are committed to the families we serve, providing support and encouragement. Our mission is to provide high quality education and child-care in a safe and respectful way.</p>
+
+										<!--ul class="list-inline m-0">
                         <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Labore eos amet dolor amet diam</li>
                         <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Etsea et sit dolor amet ipsum</li>
                         <li class="py-2"><i class="fa fa-check text-success mr-3"></i>Diam dolor diam elitripsum vero.</li>
-                    </ul>
+                    </ul-->
                 </div>
                 <div class="col-lg-5">
                     <div class="card border-0">
@@ -220,76 +245,28 @@
     <div class="container-fluid pt-5" id="our_team">
         <div class="container">
             <div class="text-center pb-2">
-                <p class="section-title px-5"><span class="px-2">Our Teachers</span></p>
-                <h1 class="mb-4">Meet Our Teachers</h1>
+                <p class="section-title px-5"><span class="px-2">Our Gallery</span></p>
+                <h1 class="mb-4"></h1>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
                         <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
                     </div>
-                    <h4>Julia Smith</h4>
-                    <i>Music Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
+
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="img/team-2.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
                     </div>
-                    <h4>Jhon Doe</h4>
-                    <i>Language Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="img/team-3.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
                     </div>
-                    <h4>Mollie Ross</h4>
-                    <i>Dance Teacher</i>
-                </div>
-                <div class="col-md-6 col-lg-3 text-center team mb-5">
                     <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
-                        <img class="img-fluid w-100" src="img/team-4.jpg" alt="" >
-                        <div
-                            class="team-social d-flex align-items-center justify-content-center w-100 h-100 position-absolute">
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light text-center mr-2 px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light text-center px-0" style="width: 38px; height: 38px;"
-                                href="#"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
                     </div>
-                    <h4>Donald John</h4>
-                    <i>Art Teacher</i>
+                    <div class="position-relative overflow-hidden mb-4" style="border-radius: 100%;">
+                        <img class="img-fluid w-100" src="img/team-1.jpg" alt="" >
+                    </div>
                 </div>
-            </div>
-        </div>
+			</div>
     </div>
     <!-- Team End -->
 
@@ -376,6 +353,35 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+	<script>
+	const gallery_data = [
+    {"type":"file","name":"IMG-20220331-WA0002.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0003.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0004.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0005.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0006.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0007.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0008.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0010.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0011.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0012.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0013.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0014.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0015.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0016.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0017.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0018.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0019.jpg"},
+    {"type":"file","name":"IMG-20220331-WA0020.jpg"}
+  ];
+
+	const render_html = gallery_data.map((d) => {
+			return (`<div class="position-relative overflow-hidden mb-4" >
+                        <img class="img-fluid w-100" style="object-fit:cover;width:300px;height:300px" src="gallery/${d.name}" alt="">
+                    </div>`);
+		});
+		$('#our_team > div > div.row').html(render_html);
+	</script>
 </body>
 
 </html>
