@@ -407,7 +407,7 @@
 
 	const render_html = gallery_data.map((d) => {
 			return (`<div class="position-relative overflow-hidden mb-4" >
-                        <img class="img-fluid w-100" style="object-fit:cover;width:300px;height:300px" src="gallery/${d.name}" alt="">
+                        <img class="img-fluid w-100" style="object-fit:cover;width:300px;height:300px" src="gallery/${d.name}" alt="" loading="lazy" >
                     </div>`);
 		});
 		$('#our_team > div > div.row').html(render_html);
